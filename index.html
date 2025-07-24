@@ -3,41 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>ASSIGNMENT-002</title>
+    <title>Assignment Two</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="header-bar">
-            <img class="logo" src="assets/logo.png" alt="Logos Picture">
-            <ul class="list">
-                <li class="home">Home</li>
-                <li class="color-chg">Shop</li>
-                <li class="color-chg">About us</li>
-                <li class="cart"><i class="fa-thin fa-cart-shopping cart-logo"></i>Cart($56)</li>
+    <!-- start header part -->
+    <header>
+        <!-- navbar part -->
+        <nav >
+            <div class="logo">
+            <img src="assets/logo.png" alt="">
+        </div>
+
+        <div class="icons">
+            <ul class="unhide-ul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> <span>Cart ($56)</span></a></li>
+                
             </ul>
+
+            <ul class="ul-hide"><li><a href="#"><i class="fa-solid fa-cart-shopping"></i> <span>Cart ($56)</span></a></li></ul>
+        </div>
         </nav>
-        <section class="hero-section">
-                <div class="hero-div">
-                    <h2 class="hero-title">ALWAYS <span class="hero-span">FRESH<br> FLOWERS</span></h2>
-                    <p class="hero-subtitle">
-                        Indulge your senses with the beauty and fragrance of<br>
-                        our fresh flower shop. From classic roses to exotic<br>
-                        blooms, we offer a wide variety of fresh flowers that<br>
-                        are perfect for any occasion.
-                    </p>
-                </div>
-                <div class="hero-div-2">
-                <img class="hero-image" src="assets/hero-flower.png" alt="Hero Picture">
-                </div>
-        </section>
+        <!-- banner part -->
+         <div class="banner ">
+            <div class="text-content">
+                <h2 class="black-h2">ALWAYS <span class="red-span">FRESH</span></h2> <H2>FLOWERS</H2>
+                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div class="img">
+                <img src="assets/hero-flower.png" alt="">
+            </div>
+
+         </div>
+
     </header>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
+    <!-- end header part -->
 </body>
-</html>
