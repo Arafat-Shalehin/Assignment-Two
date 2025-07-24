@@ -157,44 +157,58 @@ nav{
 
 /* Plant lover section */
 
-.plant-lover-container{
+.plant-lover-container {
+    max-width: 100vw;
+    margin: 200px 80px;
     display: flex;
-    margin-top: 60px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 120px;
+
 }
 
-.plant-lover-title{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 70px;
-    margin-bottom: 20px;
-    margin-left: -30px;
+.plant-lover-container .img {
+    background: url(assets/flower-store.png);
+    background-repeat: no-repeat;
+
+    width: 540px;
+    height: 597px;
+    position: relative;
+
 }
 
-.hide-plant-lover-title{
-    display: none;
+.plant-lover-container .img img {
+    height: 286px;
+    position: absolute;
+    top: -140px;
+    right: -130px;
+    filter: drop-shadow(-4px 10px 4px gray);
+
 }
 
-.plant-lover-comment{
-    font-family: sans-serif;
-    color: #86898D;
-    font-size: 25px;
+.content {
+    max-width: 50%;
+    height: auto;
+    padding-left: 60px;
+    padding-top: 20px;
 }
 
-.ul-plant-lover-comment{
-    display: none;
+.content h2 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: -29px;
 }
 
-.plant-lover-comment li {
-    margin-bottom: 15px;
+.plant-lover-container ul li {
+    font-size: 35px;
+    color: var(--color-Gray);
+    margin: 20px 0;
 }
 
 /* Latest Deal Part */
 
 .latest-deal-div{
     text-align: center;
-    margin-top: 100px;
+    margin-top: -70px;
 }
 
 .latest-title{
@@ -429,49 +443,41 @@ nav{
 
     /* Plant Lover Part */
 
-    .plant-lover-container{
+    .plant-lover-container .img img {
+        display: none;
+    }
+
+    .plant-lover-container {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        margin: 40px 20px;
     }
 
-    .plant-lover-img{
-        margin-bottom: -40px;
-        text-align: center;
+    .content {
+        max-width: 100%;
+        padding: 0;
+
+        margin: 30px 0 0 0;
     }
 
-    .plant-lover-img img{
-        width: 90%;
+    .content ul li {
+        margin-left: 20px;
+        font-size: 14px;
     }
 
-    .plant-lover-title-div{
-        margin: 0px 30px;
+    .content h2 {
+        font-size: 24px;
+        display: inline;
+        text-align: left;
+        margin-left: 0;
     }
 
-    .plant-lover-title{
-        display: none;
+    .plant-lover-container .content p {
+        font-size: 14px;
     }
 
-    .hide-plant-lover-title{
-        display: block;
-        font-size: 40px;
-        margin-left: -15px;
-        margin-bottom: 20px;
-    }
+    .plant-lover-container .img {
+        width: 100%;
 
-    .plant-lover-comment{
-        display: none;
-    }
-
-    .ul-plant-lover-comment{
-        display: block;
-        font-family: sans-serif;
-        color: #86898D;
-        font-size: 15px;
-    }
-
-    .ul-plant-lover-comment li {
-        margin-bottom: 15px;
     }
 
     /* Latest deal part */
