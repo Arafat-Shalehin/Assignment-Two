@@ -518,8 +518,9 @@ nav{
     .bloom-plant,
     .zabo-plant,
     .ana-plant{
-        margin-top: -20px;
-        height: 200px;
+       margin-top: -20px;
+       width: 100%;            
+       aspect-ratio: 3 / 2;
     }
 
 
